@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Rocks</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    
+    <!--Title-->
+    <h1 id="title">Trivia Rocks! </h1>
+
+    <!--Questions and Timer-->
+    <div class="container">
+        <p id="time-text">Time Remaining: <span id="count">90</span> Seconds</p>
+        <hr>
+        <!--Question 1-->
+            <p class="question">Who wrote "Game of Thrones?"</p>
+        <form class="answers">
+            <input type="radio" name="question" value="George R.R. Martin"> George R.R. Martin
+            <input type="radio" name="question" value="J.R.R. Tolkien"> J.R.R. Tolkien
+            <input type="radio" name="question" value="Robert Jordan"> Robert Jordan
+            <input type="radio" name="question" value="Brandon Sanderson"> Brandon Sanderson
+        </form>
+        <br>
+        <!--Question 2-->
+        <p class="question">What family is John Snow apart of?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="Baratheons"> Baratheons
+            <input type="radio" name="question" value="Starks"> Starks
+            <input type="radio" name="question" value="Lannister"> Lannister
+            <input type="radio" name="question" value="Targaryen"> Targaryen
+        </form>
+        <br>
+        <!--Question 3-->
+        <p class="question">where is the Irin Throne located?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="Old Valyria"> Old Valyria
+            <input type="radio" name="question" value="Braavos"> Braavos
+            <input type="radio" name="question" value="Kings Landing"> Kings Landing
+            <input type="radio" name="question" value="Volantis"> Volantis
+        </form>
+        <br>
+        <!--Question 4-->
+        <p class="question">How many children does Daenerys Targaryen have?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="1 boy"> 1 Boy
+            <input type="radio" name="question" value="2 girls"> 2 Girls
+            <input type="radio" name="question" value="3 dragons"> 3 Dragons
+            <input type="radio" name="question" value="4 dire wolfs"> 4 Dire Wolfs
+        </form>
+        <br>
+        <!--Question 5-->
+        <p class="question">What show is better than Game of Thrones?</p>
+        <form class="answers">
+            <input type="radio" name="question" value="Breaking Bad"> Breaking Bad
+            <input type="radio" name="question" value="My little pony"> My Little Pony
+            <input type="radio" name="question" value="The office"> The office
+            <input type="radio" name="question" value="no show"> No show is Better!
+        </form>
+        <br>
+        <hr>
+        <br>
+        <button id="done-button">Done!</button>
+        <br>
+    </div>
+    <br>
+    
+    <!--JQuery Link-->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--JavaScript Link-->
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
